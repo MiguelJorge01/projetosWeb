@@ -20,12 +20,15 @@
     <button value="7" onclick="loadNum(this)">7</button>
     <button value="8" onclick="loadNum(this)">8</button>
     <button value="9" onclick="loadNum(this)">9</button>
-    <button value="x" onclick="loadOp(this)">x</button>
+    <button value="*" onclick="loadOp(this)">*</button>
     <br>
     <button value="/" onclick="loadOp(this)">/</button>
     <button value="0" onclick="loadNum(this)">0</button>
     <button value="%" onclick="loadOp(this)">%</button>
-    <button value="," onclick="loadNum(this)">,</button>
+    <button value="." onclick="loadNum(this)">.</button>
+    <br>
+    <button onclick="delNum()">←</button>
+    <button onclick="delAll()">AC</button>
     <br><br>
     <button onclick="loadResult()">=</button>
     <input type="text" id="output" readonly>
@@ -33,4 +36,4 @@
     <script src="exercicio1.js">
     </script>
 </body>
-</html>
+</html> 
