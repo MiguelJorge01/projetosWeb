@@ -29,6 +29,16 @@ function loadOp(botao) {
 
 function loadResult(botao) {
     let visor = document.getElementById('output');
+
+    if ("08032025".includes(visor.value)) {
+        visor.value = "Eu te amo, Mariana <3";
+        return;
+
+    } else if ("558855".includes(visor.value)) {
+        visor.value = "Bruno viado";
+        return;
+    }
+
     try {
         let resultado = eval(visor.value);
         visor.value = resultado;
