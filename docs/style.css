@@ -1,6 +1,7 @@
 p {
     font-size: 40px;
     color:rgb(89, 112, 102);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 button {
@@ -13,7 +14,12 @@ button {
     font-size: 30px;
     color: azure;
     margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+}
+
+button:hover {
+    background-color: rgb(37, 37, 37);
 }
 
 body {
